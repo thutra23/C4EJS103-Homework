@@ -22,7 +22,7 @@ let d=4 <br/>
     console.log("ket qua so sanh c va d: c<d");<br/>
 <!-- cau 6 -->
 let degreeCelsius = prompt("Dien so do C") <br/>
-let farenheitDegree= degreeCelsius*1.8+32 <br/>
+let degreeFarenheit= degreeCelsius*1.8+32 <br/>
 <!-- cau 7 -->
 let a= prompt("Dien canh 1") <br/>
 let b=prompt("Dien canh 2") <br/>
