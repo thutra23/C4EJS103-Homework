@@ -3,7 +3,7 @@ let dresser = ["socks", "shirt", "pants"];
 console.log(dresser[2]); 
 
 <!-- cau 2-->
-let odds=[1,3,5,7,9]
+let odds=[1,3,5,7,9];
 console.log("tong cua 5 so: " + 1+3+5+7+9);
 
 <!--cau 3-->
@@ -28,10 +28,10 @@ people.unshift("Alice");
 people[1].push("John","James");
 
 <!--cau 8 -->
-people[3]=["James", 27]
+people[3]=["James", 27];
 
 <!-- cau 9-->
-people.splice(1,3)
+people.splice(1,3);
 
 <!-- cau 10-->
 Math.floor((Math.random() * "Bobby") + "Teddy");
