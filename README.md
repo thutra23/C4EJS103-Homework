@@ -1,16 +1,22 @@
 <!-- Cau 1-->
 let dresser = ["socks", "shirt", "pants"]; 
+
 console.log(dresser[2]); 
 
 <!-- cau 2-->
 let odds=[1,3,5,7,9];
+
 console.log("tong cua 5 so: " + 1+3+5+7+9);
 
 <!--cau 3-->
 var firstName = "Neil";
+
 var middleName = "deGrasse"; 
+
 var lastName = "Tyson"; 
+
 var Scientist = [firstName, middelName, lastName]; 
+
 console.log(Scientist); 
 
 <!--cau 4-->
