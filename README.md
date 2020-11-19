@@ -1,12 +1,14 @@
 <!-- Cau 1-->
 let dresser = ["socks", "shirt", "pants"]; 
 
-console.log(dresser[2]); 
+console.log(dresser[1]); 
 
 <!-- cau 2-->
 let odds=[1,3,5,7,9];
 
-console.log("tong cua 5 so: " + 1+3+5+7+9);
+let sum = odds[0] + odds[1] + odds[2] + odds[3] + odds [4]; 
+
+
 
 <!--cau 3-->
 var firstName = "Neil";
@@ -17,7 +19,7 @@ var lastName = "Tyson";
 
 var Scientist = [firstName, middelName, lastName]; 
 
-console.log(Scientist); 
+console.log( Scientist[0] +" "+ Scientist[1] +" "+ Scientist[2]); 
 
 <!--cau 4-->
 let people = ["Teddy", "Cathy", "Bobby"]
@@ -31,22 +33,55 @@ people.unshift("Alice");
 
 <!--cau 7--> 
 
-people[1].push("John","James");
+people[3]= John 
+people[4]=James
+people.push("Bobby")
+people.push("Barry")
+
+alice, teddy, peter, john, jame, 27, bobby, barry
+alice, teddy, john, bobby, barry
+
+
+
 
 <!--cau 8 -->
-people[3]=["James", 27];
+people[4]="Jame"
+people[5]=27;
+people[6] ="Bobby"
+people.push("Barry)
+
 
 <!-- cau 9-->
-people.splice(1,3);
+people[2]="John"
+people[3]="Bobby"
+people[4]="Barry"
+people[5]= null
+people[6]=null
+people[7]=null 
 
 <!-- cau 10-->
-Math.floor((Math.random() * "Bobby") + "Teddy");
+
+var people=["alice", "teddy", "john", "bobby", "barry"];
+var i = Math.floor((Math.random() * 5));
+var random=people[i]; 
+alert(random)
+
 
 <!-- cau 11-->
 let link ="https://mindx.edu.vn/course/code-for-everyone"; 
-console.log(link[mindx.edu.vn]); 
+let link ="https://mindx.edu.vn/course/code-for-everyone";  
+var linkOne= link[8]+link[9]+link[10]+link[11]+link[12]+link[13]+link[14]+link[15]+link[16]+link[17]+link[18]+link[19]; 
+alert(linkOne); 
 
-link[code-for-everyone]="code every one";
+for (var i = 0 ; i <17; i++) {
+link.pop();}
+alert(i)
+
+
+
+
+
+
 
 
 
