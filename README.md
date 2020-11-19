@@ -22,7 +22,7 @@ var Scientist = [firstName, middelName, lastName];
 console.log( Scientist[0] +" "+ Scientist[1] +" "+ Scientist[2]); 
 
 <!--cau 4-->
-let people = ["Teddy", "Cathy", "Bobby"]
+let people = ["Teddy", "Cathy", "Bobby"];
 people[1]="Peter"; 
 
 <!--cau 5-->
@@ -33,10 +33,10 @@ people.unshift("Alice");
 
 <!--cau 7--> 
 
-people[3]= John 
-people[4]=James
-people.push("Bobby")
-people.push("Barry")
+people[3]= John ;
+people[4]=James;
+people.push("Bobby");
+people.push("Barry");
 
 
 
@@ -44,24 +44,24 @@ people.push("Barry")
 <!--cau 8 -->
 people[4]="Jame"
 people[5]=27;
-people[6] ="Bobby"
-people.push("Barry)
+people[6] ="Bobby";
+people.push("Barry);
 
 
 <!-- cau 9-->
 people[2]="John"
 people[3]="Bobby"
 people[4]="Barry"
-people[5]= null
-people[6]=null
-people[7]=null 
+people[5]= null;
+people[6]=null;
+people[7]=null;
 
 <!-- cau 10-->
 
 var people=["alice", "teddy", "john", "bobby", "barry"];
 var i = Math.floor((Math.random() * 5));
 var random=people[i]; 
-alert(random)
+alert(random);
 
 
 <!-- cau 11-->
@@ -72,7 +72,7 @@ alert(linkOne);
 
 for (var i = 0 ; i <17; i++) {
 link.pop();}
-alert(i)
+alert(i); 
 
 
 
