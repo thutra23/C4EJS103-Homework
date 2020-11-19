@@ -38,9 +38,6 @@ people[4]=James
 people.push("Bobby")
 people.push("Barry")
 
-alice, teddy, peter, john, jame, 27, bobby, barry
-alice, teddy, john, bobby, barry
-
 
 
 
@@ -69,7 +66,7 @@ alert(random)
 
 <!-- cau 11-->
 let link ="https://mindx.edu.vn/course/code-for-everyone"; 
-let link ="https://mindx.edu.vn/course/code-for-everyone";  
+ 
 var linkOne= link[8]+link[9]+link[10]+link[11]+link[12]+link[13]+link[14]+link[15]+link[16]+link[17]+link[18]+link[19]; 
 alert(linkOne); 
 
